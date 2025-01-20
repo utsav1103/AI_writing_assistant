@@ -1,11 +1,11 @@
 require("dotenv").config();
-const PORT = process.env.PORT || 3000;
 const express = require("express");
 const cors = require("cors");
 const analyzeRouter = require("./routes/analyze");
 const grammarCheckRouter = require("./routes/grammarcheck");
 const spellCheckRouter = require("./routes/spellCheck");
 const app = express();
+const PORT = process.env.PORT || 3000;
 
 
 

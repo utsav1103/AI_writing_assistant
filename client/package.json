@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@privy-io/react-auth": "^2.7.0",
     "@tailwindcss/vite": "^4.0.0",
     "axios": "^1.8.1",
     "react": "^18.3.1",
